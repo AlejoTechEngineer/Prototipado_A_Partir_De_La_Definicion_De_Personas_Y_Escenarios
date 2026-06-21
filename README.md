@@ -38,6 +38,20 @@ Metodología de **diseño centrado en el usuario (DCU)** aplicada al prototipado
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Prototipado_Personas_Y_Escenarios] --> B[Diseno en PPT.pptx]
+    A --> C[Informe PDF]
+    B --> D[Proceso DCU]
+    D --> E[Investigacion de Usuarios]
+    D --> F[Personas - 3 Arquetipos - Goals / Frustraciones / Contexto]
+    D --> G[Escenarios de Uso - Narrativas de Interaccion Real]
+    D --> H[Wireframes Baja Fidelidad - Flujos por Usuario]
+    D --> I[Validacion de Consistencia]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
