@@ -23,6 +23,20 @@ Metodología de **diseño centrado en el usuario (DCU)** aplicada al prototipado
 | `Diseño en PPT.pptx` | Wireframes y presentación de personas/escenarios |
 | `*.pdf` | Informe completo del proceso de prototipado |
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Prototipado_Personas_Y_Escenarios] --> B[Diseno en PPT.pptx]
+    A --> C[Informe PDF]
+    B --> D[Proceso DCU]
+    D --> E[Investigacion de Usuarios]
+    D --> F[Personas - 3 Arquetipos - Goals / Frustraciones / Contexto]
+    D --> G[Escenarios de Uso - Narrativas de Interaccion Real]
+    D --> H[Wireframes Baja Fidelidad - Flujos por Usuario]
+    D --> I[Validacion de Consistencia]
+```
+
 ## Proceso DCU aplicado
 
 1. **Investigación de usuarios:** Entrevistas y análisis de comportamiento
@@ -37,20 +51,6 @@ Metodología de **diseño centrado en el usuario (DCU)** aplicada al prototipado
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Especialista Ingeniería de Software
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Prototipado_Personas_Y_Escenarios] --> B[Diseno en PPT.pptx]
-    A --> C[Informe PDF]
-    B --> D[Proceso DCU]
-    D --> E[Investigacion de Usuarios]
-    D --> F[Personas - 3 Arquetipos - Goals / Frustraciones / Contexto]
-    D --> G[Escenarios de Uso - Narrativas de Interaccion Real]
-    D --> H[Wireframes Baja Fidelidad - Flujos por Usuario]
-    D --> I[Validacion de Consistencia]
-```
 
 ## Autor
 
